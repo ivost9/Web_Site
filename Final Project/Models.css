@@ -1,0 +1,658 @@
+header{
+	width: 100%;
+	background-color:grey 
+}
+nav{
+	width: 100%;
+}
+body{
+	background-image: url(whiteBackground.png);
+}
+nav ul li img{
+	margin-top: -7%;
+	width: 90%;
+	height: 80%;
+}
+nav ul{
+	margin-left: 10%;
+}
+nav ul li{
+	margin-top: 0.5%;
+	margin-left:5%;
+	height: 40px;
+	display: inline-block;
+}
+nav ul li a:link{
+	text-decoration: none;
+}
+nav ul li a:hover{
+	text-decoration: none;
+}
+nav ul li a{
+	font-size: 200%;
+	text-decoration: none;
+	color:white;
+}
+h1{
+	padding-top:3%;
+	padding-left:39%;
+}
+#image{
+	width:100%;
+	height: auto;
+}
+img{
+	width: 100%;
+	height: auto;
+}
+#A1 img{
+	width: 110%;
+	margin-top:-40%;
+}
+#A6 img{
+	margin-top:-15%;
+}
+#A5 img{
+	margin-top: -7%;
+	width: 110%;
+	margin-left: -5%;
+}
+#A7 img,#A8 img{
+	margin-top:-3%;
+}
+#Q2 img{
+	margin-top:-15%;
+}
+#Q3 img{
+	margin-top:-5%;
+}
+#Q4 img{
+	margin-top:-12%;
+}
+#Q8 img{
+	width: 130%;
+	margin-left:-10%;
+	margin-top: -27%;
+}
+#R8 img{
+	margin-top:-5%;
+}
+#A1{
+	margin-top: -0%;
+	margin-left:6%;
+}
+#A3{
+	margin-top:0%;
+}
+#container1{
+	margin-top:3%;
+}
+#container2{
+	margin-top: 3%;
+}
+#container3{
+	margin-top: 3%;
+}
+#container4{
+	margin-top: 3%;
+}
+#A3,#TT{
+	margin-top:-41.5%;
+	margin-left:29%;
+}
+#A4{
+	margin-top:-41%;
+	margin-left:52%;
+}
+#A5,#Q2{
+	margin-top:-40.4%;
+	margin-left:75%;
+}
+#A6,#Q3,#Q8{
+	margin-top: 0%;
+	margin-left:6%;
+}
+#A7{
+	margin-top:-40%;
+	margin-left:29%;
+}
+#A8{
+	margin-top:-40%;
+	margin-left:52%;
+}
+#Q4{
+	margin-top:-42%;
+	margin-left:29%;
+}
+#Q5{
+	margin-top:-41.5%;
+	margin-left:52%;
+}
+#Q7{
+	margin-top:-41%;
+	margin-left:75%;
+}
+#TT{
+	margin-top:-41.7%;
+	margin-left:29%;
+}
+#R8{
+	margin-top:-43%;
+	margin-left:52%;
+}
+#E-Tron{
+	margin-top:-42%;
+	margin-left:75%;
+}
+.card{
+	width: 20%;
+	height:62rem;
+}
+.card h5{
+	font-size: 350%;
+	margin-left: 3%;
+}
+#A1 table{
+	margin-top:-40%;
+}
+#Q2 table{
+	margin-top:-8%;
+}
+#Q8 table{
+	margin-top:-20%;
+}
+#E-Tron table{
+	margin-top:4%;
+}
+table th{
+	font-size:152%;
+}
+table tr td{
+	font-size: 113%;
+	border:0.3rem ridge;
+}
+footer{
+	position: absolute;
+	width: 100%;
+	margin-top:8%;
+	background-color:grey;
+	height:5rem;
+}
+footer p{
+	font-family: italic;
+	color:white;
+	font-size: 150%;
+	padding-top:1%;
+	margin-left:15%;
+}
+@media only screen and (max-width:1920px){
+	#A1{
+		margin-left:0.4cm;
+	}
+	
+	#A3{
+		margin-left:26.3%;
+		margin-top:-16.7cm;
+	}
+	
+	#A4{
+		margin-left:51%;
+		margin-top:-16.7cm;
+	}
+	
+	#A5{
+		margin-right: 0.2cm;
+		margin-top:-16.7cm;
+	}
+	#A6{
+		margin-left:0.4cm;
+	}
+	
+	#A7{
+		margin-left:26.3%;
+		margin-top:-16.7cm;
+	}
+	
+	#A8{
+		margin-left:51%;
+		margin-top:-16.7cm;
+	}
+	
+	#Q2{
+		margin-right: 0.2cm;
+		margin-top:-16.7cm;
+	}
+	#Q3{
+		margin-left:0.4cm;
+	}
+	
+	#Q4{
+		margin-left:26.3%;
+		margin-top:-16.7cm;
+	}
+	
+	#Q5{
+		margin-left:51%;
+		margin-top:-16.7cm;
+	}
+	
+	#Q7{
+		margin-right: 0.2cm;
+		margin-top:-16.7cm;
+	}
+	#Q8{
+		margin-left:0.4cm;
+	}
+	
+	#TT{
+		margin-left:26.3%;
+		margin-top:-16.7cm;
+	}
+	
+	#R8{
+		margin-left:51%;
+		margin-top:-16.7cm;
+	}
+	
+	#E-Tron{
+		margin-right: 0.2cm;
+		margin-top:-16.7cm;
+	}
+}
+@media only screen and (max-width:1280px){
+	
+	#container3{
+		margin-top: 10%;
+	}
+	#container4{
+		margin-top:14%;
+	}
+	footer{
+		margin-top:15%;
+	}
+}
+@media only screen and (max-width:1024px){
+	nav ul{
+		margin-left:0%;
+	}
+	.card{
+		width: 23%;
+	}
+	#container1{
+		width:100%;
+		height: 18cm;
+		margin-top:2cm;
+		margin-left:0%;
+	}
+	table th{
+		font-size:122%;
+	}
+	table tr td{
+		font-size: 93%;
+		border:0.3rem ridge;
+	}
+	table tr td{
+		width:100%;
+	}
+	#A3 table,#A4 table{
+		margin-top:2rem;
+	}
+	#A1{
+		margin-left:0.4cm;
+	}
+	
+	#A3{
+		margin-left:26.3%;
+		margin-top:-16.7cm;
+	}
+	
+	#A4{
+		margin-left:51%;
+		margin-top:-16.7cm;
+	}
+	
+	#A5{
+		margin-right: 0.2cm;
+		margin-top:-16.7cm;
+	}
+	#A5 table{
+		margin-top:0%;
+	}
+	#A6{
+		margin-left:0.4cm;
+	}
+	
+	#A7{
+		margin-left:26.3%;
+		margin-top:-16.7cm;
+	}
+	
+	#A8{
+		margin-left:51%;
+		margin-top:-16.7cm;
+	}
+	
+	#Q2{
+		margin-right: 0.2cm;
+		margin-top:-16.7cm;
+	}
+	#A7 table{
+		margin-top:2.7rem;
+	}
+	#A8 table{
+		margin-top:1.7rem;
+	}
+	#Q2 table{
+		margin-top:-2rem;
+	}
+	#container2{
+		width:100%;
+		height: 18cm;
+		margin-top:1cm;
+		margin-left:0%;
+	}
+	#Q3{
+		margin-left:0.4cm;
+	}
+	
+	#Q4{
+		margin-left:26.3%;
+		margin-top:-16.7cm;
+	}
+	
+	#Q5{
+		margin-left:51%;
+		margin-top:-16.7cm;
+	}
+	
+	#Q7{
+		margin-right: 0.2cm;
+		margin-top:-16.7cm;
+	}
+	#Q4 table{
+		margin-top:-1.5rem;
+	}
+	#Q5 table{
+		margin-top: 1.2rem;
+	}
+	#Q7 table{
+		margin-top:0.6rem;
+	}
+	#container3{
+		width:100%;
+		height: 18cm;
+		margin-top:2cm;
+		margin-left:0%;
+	}
+	#Q8{
+		margin-left:0.4cm;
+	}
+	
+	#TT{
+		margin-left:26.3%;
+		margin-top:-16.7cm;
+	}
+	
+	#R8{
+		margin-left:51%;
+		margin-top:-16.7cm;
+	}
+	
+	#E-Tron{
+		margin-right: 0.2cm;
+		margin-top:-16.7cm;
+	}
+	#Q8 table{
+		margin-top:-3rem;
+	}
+	#TT table{
+		margin-top: 1rem;
+	}
+	#R8 table{
+		margin-top:0rem;
+	}
+	#E-Tron table{
+		margin-top:1rem;
+	}
+	table th td{
+		width:50%;
+	}
+	table td{
+		font-size: 40%;
+	}
+	#container4{
+		width:100%;
+		height: 18cm;
+		margin-top:2cm;
+		margin-left:0%;
+	}
+	footer{
+		margin-top:12%;
+		width:100%;
+	}
+}
+@media only screen and (max-width:768px){
+	nav ul{
+		margin-left:-5%;
+	}
+	nav ul li{
+		margin-left:2%;
+	}
+	h2 a{
+		font-size:100%;
+	}
+	.card{
+		width:40%;
+	}
+	#A1{
+		margin-left:1cm;
+	}
+	#A3{
+		margin-left:55%;
+	}
+	#A4{
+		margin-top:0.5cm;
+		margin-left:1cm;
+	}
+	#A5{
+		margin-left:55%;
+	}
+	#container1{
+
+		height: 33cm;
+	}
+	#A6{
+		margin-left:1cm;
+	}
+	#A7{
+		margin-left:55%;
+	}
+	#A8{
+		margin-top:0.5cm;
+		margin-left:1cm;
+	}
+	#Q2{
+		margin-left:55%;
+	}
+	#container2{
+		margin-top:0.5cm;
+		height: 33cm;
+	}
+	#Q3{
+		margin-left:1cm;
+	}
+	#Q4{
+		margin-left:55%;
+	}
+	#Q5{
+		margin-top:2.5cm;
+		margin-left:1cm;
+	}
+	#Q7{
+		margin-left:55%;
+	}
+	#Q4 img{
+		margin-top:-6rem;
+	}
+	#container3{
+		margin-top:0.5cm;
+		height: 36cm;
+	}
+	#Q8{
+		margin-left:1cm;
+	}
+	#TT{
+		margin-left:55%;
+	}
+	#R8{
+		margin-top:2.5cm;
+		margin-left:1cm;
+	}
+	#E-Tron{
+		margin-left:55%;
+	}
+	#container4{
+		margin-top:0.5cm;
+		height: 35cm;
+	}
+}
+@media only screen and (max-width:480px){
+	nav{
+		
+		height: 3rem;
+	}
+	nav ul{
+		margin-left: -7%;
+	}
+	nav ul li a{
+		font-size: 100%;
+	}
+	nav ul li{
+		margin-left:1%;
+	}
+	nav ul li img{
+		margin-top: -2%;
+		width: 70%;
+		height: 40%;
+	}
+	h1{
+		margin-left:20rem;
+		font-size:120px;
+	}
+	footer{
+		height: 3rem;
+	}
+	footer p{
+		font-size: 100%;
+	}
+}
+@media only screen and (max-width:320px){
+	nav{
+		height: 8rem;
+	}
+	nav ul{
+		margin-left: -12%;
+	}
+	nav ul li a{
+		font-size: 120%;
+	}
+	nav ul li img{
+		margin-top: 0%;
+		height: 40%;
+	}
+	nav ul li{
+		margin-left:4%;
+	}
+	.card{
+		width:50%;
+	}
+	#A1{
+		margin-left:20%;
+	}
+	#A3{
+		margin-top:0.5cm;
+		margin-left:20%;
+	}
+	#A4{
+		margin-top:0.5cm;
+		margin-left:20%;
+	}
+	#A5{
+		margin-top:0.5cm;
+		margin-left:20%;
+	}
+	#container1{
+
+		height: 67.5cm;
+	}
+	#A6{
+		margin-top:0.5cm;
+		margin-left:20%;
+	}
+	#A7{
+		margin-top:1cm;
+		margin-left:20%;
+	}
+	#A8{
+		margin-top:1.5cm;
+		margin-left:20%;
+	}
+	#Q2{
+		margin-top:1.6cm;
+		margin-left:20%;
+	}
+	#container2{
+		margin-top:0.5cm;
+		height: 71cm;
+	}
+	#Q3{
+		margin-top:0.5cm;
+		margin-left:20%;
+	}
+	#Q4{
+		margin-top:1.5cm;
+		margin-left:20%;
+	}
+	#Q5{
+		margin-top:1cm;
+		margin-left:20%;
+	}
+	#Q7{
+		margin-top:1.5cm;
+		margin-left:20%;
+	}
+	#Q4 img{
+		margin-top:-2rem;
+	}
+	#container3{
+		margin-top:0.5cm;
+		height: 72cm;
+	}
+	#Q8{
+		margin-top:0.5cm;
+		margin-left:20%;
+	}
+	#TT{
+		margin-top:1.5cm;
+		margin-left:20%;
+	}
+	#R8{
+		margin-top:1.5cm;
+		margin-left:20%;
+	}
+	#E-Tron{
+		margin-top:1cm;
+		margin-left:20%;
+	}
+	#container4{
+		margin-top:0.5cm;
+		height: 70cm;
+	}
+	footer{
+		margin-top:10%;
+		height:4rem
+	}
+	footer p{
+		font-size: 120%;
+	}
+}

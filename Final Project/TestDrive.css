@@ -1,0 +1,252 @@
+header{
+	width: 100%;
+	background-color:grey 
+}
+nav{
+	width: 100%;
+}
+nav ul li img{
+	margin-top: -7%;
+	width: 90%;
+	height: 80%;
+}
+nav ul{
+	margin-left: 10%;
+}
+nav ul li{
+	margin-top: 0.5%;
+	margin-left:5%;
+	height: 40px;
+	display: inline-block;
+}
+nav ul li a:link{
+	text-decoration: none;
+}
+nav ul li a:hover{
+	text-decoration: none;
+}
+nav ul li a{
+	font-size: 200%;
+	text-decoration: none;
+	color:white;
+}
+h1{
+	padding-top:2%;
+	padding-left: 10%;
+}
+#h{
+	color:white;
+}
+form{
+	margin-top:4%;
+	margin-left:10%;
+}
+form label{
+	font-size: 140%;
+	width: 15%;
+	color:white;
+}
+form input{
+	height: 30px;
+	width: 20%;
+}
+body{
+	background-image: url("testDrive.jpg");
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+}
+#cars,#city{
+	width: 20%;
+	height: 30px;
+}
+footer{
+	position: absolute;
+	width: 100%;
+	margin-top:2%;
+	background-color:grey;
+	height:5rem;
+}
+footer p{
+	font-family: italic;
+	color:white;
+	font-size: 150%;
+	padding-top:1%;
+	margin-left:15%;
+}
+@media only screen and (max-width:1920px){
+	footer{
+		margin-top:19%;
+	}
+}
+@media only screen and (max-width:1280px){
+	body{
+		background-size: 100% 121%;
+	}
+	footer{
+		margin-top:10%;
+	}
+}
+@media only screen and (max-width:1024px){
+	nav ul{
+		margin-left:0%;
+	}
+	h1{
+		padding-top: 0%;
+	}
+	form{
+		margin-top:3%;
+	}
+	body{
+		background-size: 100% 110%;
+	}
+	form label{
+		font-size: 100%;
+		width: 20%;
+		color:white;
+	}
+	form input{
+		height: 20px;
+		width: 20%;
+	}
+	body{
+		background-size: 100% 120%;
+	}
+	#cars,#city{
+		width: 20%;
+		height: 20px;
+	}
+	footer{
+		margin-top:10%
+	}
+}
+@media only screen and (max-width:768px){
+	nav ul{
+		margin-left:-5%;
+	}
+	nav ul li{
+		margin-left:2%;
+	}
+	body{
+		background-image: url("480back.png");
+		background-size: 100% 140%;
+	}
+	footer{
+		margin-top:13%;
+}
+@media only screen and (max-width:480px){
+	nav{
+
+		height: 10rem;
+	}
+	nav ul{
+		margin-left: -7%;
+	}
+	nav ul li a{
+		font-size: 160%;
+	}
+	nav ul li{
+		margin-left:7%;
+	}
+	nav ul li img{
+		margin-top: -2%;
+		width: 70%;
+		height: 40%;
+	}
+	#h{
+		font-size:200%;
+	}
+	form{
+		width: 90%;
+		margin-top:4%;
+		margin-left:10%;
+	}
+	form label{
+		font-size: 100%;
+		width: 40%;
+		color:white;
+	}
+	form input{
+		height: 30px;
+		width: 30%;
+	}
+	#cars,#city{
+		width: 40%;
+		height: 30px;
+	}
+	button{
+		font-size: 20%;
+		height: 20px;
+	}
+	body{
+		background-image: url("480back.png");
+		background-size: 100% 190%;
+	}
+	footer{
+		opacity: 0.9;
+		margin-top:30%;
+		height: 10rem;
+	}
+	footer p{
+		padding-top:8%;
+		font-size: 200%;
+	}
+}
+@media only screen and (max-width:320px){
+	nav{
+		height: 8rem;
+	}
+	nav ul{
+		margin-left: -12%;
+	}
+	nav ul li a{
+		font-size: 120%;
+	}
+	nav ul li img{
+		margin-top: 0%;
+		height: 40%;
+	}
+	nav ul li{
+		margin-left:4%;
+	}
+	body{
+		background-size: 100% 130%;
+	}
+	h1{
+		padding-top:-2%;
+		padding-left: 5%;
+	}
+	#h{
+		font-size:100%;
+	}
+	form{
+		width: 80%;
+		margin-top:4%;
+		margin-left:10%;
+	}
+	form label{
+		font-size: 80%;
+		width: 45%;
+		color:white;
+	}
+	form input{
+		font-size: 70%;
+		height: 30px;
+		width: 45%;
+	}
+	#cars,#city{
+		font-size: 70%;
+		width: 45%;
+		height: 30px;
+	}
+	button{
+		font-size: 20%;
+		height: 20px;
+	}
+	footer{
+		margin-top:15%;
+		height:8rem
+	}
+	footer p{
+		font-size: 120%;
+	}
+}

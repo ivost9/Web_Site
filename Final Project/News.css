@@ -1,0 +1,218 @@
+header{
+	width: 100%;
+	background-color:grey 
+}
+nav{
+	width: 100%;
+}
+nav ul li img{
+	margin-top: -7%;
+	width: 90%;
+	height: 80%;
+}
+nav ul{
+	margin-left: 10%;
+}
+nav ul li{
+	margin-top: 0.5%;
+	margin-left:5%;
+	height: 40px;
+	display: inline-block;
+}
+nav ul li a:link{
+	text-decoration: none;
+}
+nav ul li a:hover{
+	text-decoration: none;
+}
+nav ul li a{
+	font-size: 200%;
+	text-decoration: none;
+	color:white;
+}
+#main h1{
+	font-size: 400%;
+	margin-left:5%;
+	color:white;
+	position: absolute;
+}
+#main img{
+	width: 91.5%;
+	height: auto;
+}
+#main{
+	margin-left:6.5%;
+}
+.card{
+	height:48rem;
+	width:26.3%;
+}
+.card h5{
+	font-weight: bold;
+	font-size: 3rem;
+}
+.card p{
+	font-size:2rem;
+}
+#card1{
+	margin-left:6.5%;
+	margin-top:4%;
+}
+#card2{
+	margin-left:36%;
+	margin-top:-31.7%;
+}
+#card3{
+	margin-left:65.5%;
+	margin-top:-31.7%;
+	
+}
+.card img{
+	width:100%;
+	height:auto;
+}
+footer{
+	position: absolute;
+	width: 100%;
+	margin-top:4%;
+	background-color:grey;
+	height:5rem;
+}
+footer p{
+	font-family: italic;
+	color:white;
+	font-size: 150%;
+	padding-top:1%;
+	margin-left:15%;
+}
+@media only screen and (max-width:1920px){
+	#card2{
+		margin-top:-12.7cm;
+	}
+	#card3{
+		margin-top:-12.7cm;
+	}
+}
+@media only screen and (max-width:1024px){
+	nav ul{
+		margin-left:0%;
+	}
+	#card2{
+		margin-top:-12.7cm;
+	}
+	#card3{
+		margin-top:-12.7cm;
+	}
+	footer{
+		margin-top:5cm;
+	}
+}
+@media only screen and (max-width:768px){
+	nav ul{
+		margin-left:-5%;
+	}
+	nav ul li{
+		margin-left:2%;
+	}
+	#main h1{
+		font-size:250%;
+	}
+	h2 a{
+		font-size:100%;
+	}
+}
+@media only screen and (max-width:480px){
+	nav{
+		
+		height: 3rem;
+	}
+	nav ul{
+		margin-left: -7%;
+	}
+	nav ul li a{
+		font-size: 100%;
+	}
+	nav ul li{
+		margin-left:1%;
+	}
+	nav ul li img{
+		margin-top: -2%;
+		width: 70%;
+		height: 40%;
+	}
+	.card{
+		width:70%;
+	}
+	#card1{
+		margin-left:1.6cm;
+	}
+	#card2{
+		margin-top:2cm;
+		margin-left:1.6cm;
+	}
+	#card3{
+		margin-top:1.5cm;
+		margin-left:1.6cm;
+	}
+	footer{
+		height: 3rem;
+	}
+	footer p{
+		font-size: 100%;
+	}
+	
+}
+@media only screen and (max-width:320px){
+	nav{
+		height: 8rem;
+	}
+	nav ul{
+		margin-left: -12%;
+	}
+	nav ul li a{
+		font-size: 120%;
+	}
+	nav ul li img{
+		margin-top: 0%;
+		height: 40%;
+	}
+	nav ul li{
+		margin-left:4%;
+	}
+	#main h1{
+		font-size: 140%;
+	}
+	.card h5{
+		font-size:120%;
+	}
+	.card p{
+		font-size:100%;
+	}
+	.card{
+		height:20%;
+		width:70%;
+	}
+	.card .btn{
+		font-size:70%;
+		width:50%;
+		height: auto;
+	}
+	#card1{
+		margin-left:1cm;
+	}
+	#card2{
+		margin-top:2cm;
+		margin-left:1cm;
+	}
+	#card3{
+		margin-top:1.5cm;
+		margin-left:1cm;
+	}
+	footer{
+		margin-top:10%;
+		height:4rem
+	}
+	footer p{
+		font-size: 120%;
+	}
+}
